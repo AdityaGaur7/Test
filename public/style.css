@@ -1,0 +1,564 @@
+@import url('https://fonts.googleapis.com/css2?family=Gajraj+One&family=Jost:wght@800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    transition: .1s all ease-in-out;
+    text-decoration: none;
+    list-style: none;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    font: 800;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(244, 191, 181);
+    width: 100%;
+    box-shadow: 1px 1px 1px px black;
+    height: 10vh;
+    position: sticky;
+    border-bottom: 1px solid black;
+
+}
+
+
+.flex {
+    display: flex;
+
+}
+
+li {
+    margin: 3vh;
+}
+
+.right a {
+    color: rgb(153, 100, 100);
+
+}
+
+a:hover {
+
+    border-bottom: 1px solid red;
+    padding-bottom: 1vh;
+    color: red;
+}
+
+.left {
+    margin: 2vh;
+
+}
+
+.right {
+    float: right;
+
+}
+
+.bold {
+    margin: 6vh 37vw;
+   
+    color: #c91b1b;
+    text-shadow: 2px 5px 1px  #fefe08;
+}
+
+.content h4 {
+    font-family: cursive;
+    margin: 3vh 4vw;
+    color: rgb(255, 34, 0);
+    font-size: larger;
+    text-align: center;
+    font-weight: 600;
+}
+
+.content p {
+    font-family: monospace;
+    font-size: 17px;
+    margin: 2vh 9vw;
+    font-weight: 700;
+    color: rgb(171, 3, 255);
+    text-shadow: 2px 3px 1px #fbff00;
+    text-align: center;
+}
+
+span {
+
+    color: #ea1010;
+    text-shadow: 3px 4px 3px rgb(252, 252, 0);
+}
+
+input {
+    color: rgb(248, 46, 6);
+    padding: 2vh;
+    font-family: 'Gajraj One', cursive;
+    font-family: 'Jost', sans-serif;
+    margin: 1vh;
+    text-transform: uppercase;
+    /* display: flex;
+    justify-content: center; */
+    border-radius: 34px;
+    text-shadow: 2px 1px 3px rgb(49, 240, 208);
+
+}
+
+.btn1 {
+    display: flex;
+    justify-content: center;
+
+}
+
+#btn {
+    margin-right: 6vw;
+
+}
+
+#btn1 {
+    padding: 1vh;
+    margin: 3vh;
+    color: rgb(149, 0, 255);
+    border-radius: 10vh;
+    text-transform: capitalize;
+    background-color: #1deda8;
+}
+
+.btn button {
+    padding: 1vh;
+    margin: 3vh;
+    color: rgb(124, 220, 188);
+    border-radius: 10vh;
+    background-color: #3d67ff;
+    margin-left: 12vw;
+
+}
+
+button:hover {
+    box-shadow: 2px 3px 4px 2px black;
+    transform: scale(1.1);
+    transition: .44s;
+    border-radius: 5px;
+    color: #c91b1b;
+    font-weight: 600;
+    background-color: rgb(236, 245, 162);
+
+}
+
+.f {
+    background: url("img/love.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 20vh;
+
+    /* margin-left: 10vw; */
+    width: 42vw;
+}
+
+form input {
+    margin-left: 6vw;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+}
+
+#g {
+    display: none;
+}
+
+#a {
+    margin-left: 3vw;
+}
+
+#crshid {
+    margin-left: 3vw;
+}
+
+#percent {
+    /* background: url("img/bg.jpeg"); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 30vw;
+    height: auto;
+    border-radius: 50px;
+    display: none;
+    
+
+}
+#percent img{
+    width: 15rem;
+    height: auto;
+    border-radius:50%;
+    border: 2px solid black;
+    position: relative;
+}
+
+#lv {
+    width: 22%;
+    position: relative;
+   display: flex;
+   justify-content: center;
+   margin: auto;
+   text-align: center;
+    z-index: 90;
+ 
+    color: red;
+    text-shadow: 2px 4px 2px blue;
+    font-size: 38px;
+
+}
+
+.bottom {
+    display: flex;
+    justify-content: center;
+    background-color: #f27f7f;
+    color: white;
+
+    height: 12vh;
+    margin-bottom: 0px;
+}
+
+.foot p {
+    margin-top: 4vh;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 8vh;
+
+}
+
+.message {
+    border-radius: 30px;
+    border: 2px solid black;
+    padding: 4vh;
+    display: none;
+    box-shadow: 7px 7px 5px #f27f7f;
+
+}
+
+.cs {
+    text-align: center;
+}
+
+textarea {
+    border-radius: 30px;
+    margin-left: 1vh;
+    color: #fa0202;
+    background-color: rgb(241, 241, 244);
+    padding: 4px 10px;
+    padding-right: 11px;
+}
+
+.img {
+    background: url("img/bg.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50vh 60vw;
+    background-color: #3d67ff;
+}
+
+#cu {
+    padding: 1vh;
+    margin: 3vh;
+    margin-top: 24vh;
+    color: rgb(1, 22, 255);
+    border-radius: 10vh;
+    background-color: #e9f085;
+
+
+}
+
+#gif {
+    position: relative;
+    top: 42vh;
+    left: 60vw;
+    margin: auto;
+
+
+}
+
+.gifs {
+    position: relative;
+    width: 100%;
+
+}
+
+#l,  #r {
+    position: relative;
+
+}
+
+
+
+#l {
+
+    animation: movel;
+
+    animation-duration: 4s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+
+#r {
+    animation: mover;
+    animation-duration: 4s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+
+.container {
+    display: flex;
+   
+    justify-content: space-between;
+    width: 30.2vw;
+ 
+   
+    margin: auto;
+}
+
+#inp1 {
+    border: 0px;
+    border-radius: 5px;
+    background-color: #b6dd49;
+    padding: 3px 1px
+}
+.lefty {
+    /* display: none; */
+    background: url('img/left-heart.png') no-repeat;
+    background-size: cover;
+    position: relative;
+   
+    float: left;
+
+
+}
+#l{
+    /* width: 10vw ; */
+    width: 18vh !important;
+    height: 20.5vh;
+}
+
+.righty {
+  /* display: none; */
+    background: url('img/right-heart.png') no-repeat;
+    background-size: cover;
+    position: relative;
+    float: right;
+
+}
+@keyframes movel {
+    from {
+        top: 50%;
+        left:0%;
+
+    }
+
+    to {
+        top: 50%;
+        left: 37%;
+    }
+
+}
+
+
+@keyframes mover {
+    from {
+        top: 50%;
+       right: 0%;
+
+    }
+
+    to {
+        top: 50%;
+        right: 37%;
+    }
+
+}
+
+
+
+.text {
+    text-align: center;
+    color: rgb(248, 90, 55);
+}
+#text-h1{
+    color: #ff0000;
+    text-shadow: 5px 3px 4px rgb(246, 255, 0);
+}
+.new {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* ..........................................................................................................................................*/
+
+
+
+@media (max-width:600px) {
+    * {
+        font-size: 10px;
+        text-decoration: none;
+
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+  
+
+    .form {
+        width: 100%;
+    }
+
+    .right {
+        display: none;
+    }
+
+    .input {
+        margin: 1vh -31vw;
+
+
+    }
+
+    .f {
+
+        width: 100vw;
+    }
+
+
+
+ 
+    @keyframes movel {
+        from {
+            top: 50%;
+            left: -50%;
+        }
+        to {
+            top: 50%;
+            left: 16%;
+        }
+    
+    }
+    @keyframes mover {
+        from {
+            top: 50%;
+            left: 50%;
+        }
+        to {
+            top: 50%;
+            left: -16%;
+        } 
+    
+    } 
+  
+
+
+
+
+    .loader{
+        height: 37vh;
+        width: 80vw;
+        background: contain;
+        background-size: contain;
+        position: fixed;
+        z-index: 9999;
+    }
+    
+
+
+
+
+
+}
+
+
+
+#btn {
+    margin-left: 6vw;
+
+}
+
+#percent {
+    height: 30vh;
+    width: 70vw;
+    text-align: center;
+    margin-left: 15vw;
+    background-position: center;
+
+}
+
+#lv {
+    font-size: 25px;
+    position: relative;
+    top: 40%;
+    left: 38%;
+    margin-right: 62vw;
+}
+
+#gif {
+    position: relative;
+    top: 25vh;
+    left: 23vw;
+    width: 26rem;
+    height: auto;
+
+}
+
+.lefty,
+.righty {
+    display:block ;
+    width: 20vw;
+    height: 5vh;
+}
+
+.lefty {
+
+    margin-left: 5vw;
+    width: 39.5vw;
+    height: 20.5vh;
+}
+#l{
+    width: 39.5vw;
+}
+
+.righty {
+    margin-right: 5vw;
+    width: 15vh;
+    height: 20.5vh;
+}
+
+.text h1 {
+    font-size: 2vh;
+    position: relative;
+    top: -16vh;
+    font-family: cursive;
+    text-transform: capitalize;
+    color: rgb(249, 9, 9);
+    text-shadow: 5px 3px 5px rgb(234, 49, 234);
+}
+
+#cu {
+    margin-top: -4vh;
+}
+
+.content p {
+    font-size: 13px;
+}
+.container{
+ /* z-index: 2; */
+    margin: auto;
+    width: 100vw;
+
+
+}
+
+
