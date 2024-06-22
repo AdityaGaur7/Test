@@ -14,9 +14,7 @@ app.get("/next",function(req,res){
 const crushdb = "mongodb+srv://adkumar7112:adgaur7112@cluster0.iw4txgj.mongodb.net/crushdata";
 
 const db = "mongodb://127.0.0.1:27017/crush";
-mongoose.connect(crushdb,{  useNewUrlParser: true,
-                          useUnifiedTopology: true,
-                         })
+mongoose.connect(crushdb)
         .then(()=>console.log("Connected to database"))
         .catch((err)=> console.log(err));
 
